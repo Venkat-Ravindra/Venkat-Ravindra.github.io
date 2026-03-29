@@ -1,9 +1,9 @@
 // ─── CONFIG ───────────────────────────────────────────────
 
     // ─── CONFIG ───────────────────────────────────────────────
-    const EMAILJS_SERVICE_ID  = "service_f32avtm";   // e.g. "service_xxxxxxx"
-    const EMAILJS_TEMPLATE_ID = "template_8lmdzja";  // e.g. "template_xxxxxxx"
-    const EMAILJS_PUBLIC_KEY  = "BUFtI5ZyWy5vA-9ZA";   // e.g. "xxxxxxxxxxxxxxxxxxxx"
+    const EMAILJS_SERVICE_ID  = "service_dhhfkkk";   // e.g. "service_xxxxxxx"
+    const EMAILJS_TEMPLATE_ID = "template_2dtorjs";  // e.g. "template_xxxxxxx"
+    const EMAILJS_PUBLIC_KEY  = "hsiHLPfrl9abM9F8a";   // e.g. "xxxxxxxxxxxxxxxxxxxx"
 
     // ─── THEME TOGGLE ─────────────────────────────────────────
     const themeToggle = document.getElementById('theme-toggle');
