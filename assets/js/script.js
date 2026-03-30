@@ -165,6 +165,7 @@
       const phone   = document.getElementById('f-phone').value.trim();
       const subject = document.getElementById('f-subject').value.trim();
       const message = document.getElementById('f-message').value.trim();
+      const toEmail = 'info@greengridenergy.in';
 
       let hasError = false;
       if (!name)    { showError('name',    'Name is required');        hasError = true; }
@@ -190,7 +191,8 @@
             from_phone:   phone,
             subject:      subject || 'New enquiry from GreenGrid website',
             message:      message,
-            reply_to:     email
+            reply_to:     email,
+            to_email:     toEmail
           },
           EMAILJS_PUBLIC_KEY
         );
